@@ -7,7 +7,7 @@
 ### Usage
 Import `Toast` classes.
 ```php
-use nayukikuu\Toast
+use nayukikuu\Toast;
 ```
 
 ### Create a Toast instance
