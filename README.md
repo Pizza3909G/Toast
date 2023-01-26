@@ -16,3 +16,14 @@ $this->toast = new Toast($this);
 ```
 `$plugin` contains an instance of your PluginBase
 
+### Method send
+
+- Send in person
+```php
+$this->sendToast($player, "Title", "Subtitle");
+```
+
+- Multi-person send
+```php
+$this->broadcastToast("Title", "Subtitle");
+```
