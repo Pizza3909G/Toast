@@ -27,3 +27,6 @@ $this->toast->sendToast($player, "Title", "Subtitle");
 ```php
 $this->toast->broadcastToast("Title", "Subtitle");
 ```
+
+### Advice
+- If you find a bug you can report it in: https://github.com/Pizza3909G/Toast/issues
