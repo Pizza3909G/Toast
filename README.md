@@ -20,10 +20,10 @@ $this->toast = new Toast($this);
 
 - Send in person
 ```php
-$this->sendToast($player, "Title", "Subtitle");
+$this->toast->sendToast($player, "Title", "Subtitle");
 ```
 
 - Multi-person send
 ```php
-$this->broadcastToast("Title", "Subtitle");
+$this->toast->broadcastToast("Title", "Subtitle");
 ```
